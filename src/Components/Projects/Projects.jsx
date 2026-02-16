@@ -13,27 +13,25 @@ const cards = [
         id: 1,
         title: "Artist Page",
         link: "https://samwebpage.netlify.app/",
-        description: "(Work in progress)",
+        description: "Artist's production and work, with admin panel to modify the public page (Work in progress).",
         stack:[<StackIcon name="react" />, <StackIcon name="tailwindcss" />,<StackIcon name="js" />,<StackIcon name="expressjs" />,<StackIcon name="mongodb" />],   
     },
     {
         id: 2,
         title: "Weather App",
        
-        description: "",
+        description: "Search worldwide locations and display local weather. API usage.",
         stack:[<StackIcon name="html5" />, <StackIcon name="css3" />, <StackIcon name="js" />],  
     },
     {
         id: 3,
         title: "Shop App",
-       
-        description: "",
+        description: "Complete front-end and back-end e-commerce app, with admin panel and payment managment. (Copied project)",
         stack:[<StackIcon name="react" />,<StackIcon name="js" />,<StackIcon name="expressjs" />,<StackIcon name="mongodb" />],  
     },
      {
         id: 4,
         title: "Banking App",
-       
         description: "(Work in progress)",
         stack:[],  
     },
