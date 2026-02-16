@@ -31,7 +31,7 @@ const cards = [
     },
      {
         id: 4,
-        title: "Banking App",
+        title: "Budgeting App",
         description: "(Work in progress)",
         stack:[],  
     },

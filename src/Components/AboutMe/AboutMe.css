@@ -13,4 +13,9 @@
 .about-container p{
     padding: 10px 100px;
     text-align: justify;
+    font-size: 20px;
+    line-height: 35px;
+}
+.about-container span{
+    font-weight: 800;
 }

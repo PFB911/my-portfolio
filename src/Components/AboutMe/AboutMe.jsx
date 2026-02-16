@@ -5,8 +5,39 @@ const AboutMe = () => {
     return (
         <div id='aboutme' className='about-container'>
             <h1 className="title">Briefly about me</h1>
-            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
-                The standard chunk of Lorem Ipsum used since the 1500s i</p>
+            <p>Hello again! I'm <span>Pierfrancesco</span> but you can call me <span>Pier</span>. <br/> 
+             <br />
+            I built this page to showcase my skills in web development, 
+            and I hope you find it useful. 
+            I have a wide range of interests, 
+            and my scientific background has helped me 
+            develop a critical perspective,
+            allowing me to make evidence-based decisions. <br />
+             <br />
+            My passion for coding began while studying 
+            genetic code and evolutionary patterns. 
+            Combined with my interest in communication, this led me to front-end development,
+            where I focus on creating efficient platforms 
+            and clear web pages to display insights from 
+            data analysis. <br />
+             <br />
+            That's my purpose: making information clear, insightful, and accessible.
+
+            {/* I built this page to showcase my skills in building 
+            web apps and I hope you will find it useful. I'm all 
+            about life and I have many interests and areas 
+            where I developed skills proficiently. 
+            My scientific background helped me in developing a 
+            critical view of the world, equipping me with the 
+            ability to make decisions based on evidence. My 
+            passion for "coding" was born by reading and 
+            studying about genetic code evolutive patterns. 
+            My interest in communication led me to develop my 
+            knowledge of front-end development with the intent 
+            of creating efficient platforms and clear pages to 
+            display insightful information obtained via Data 
+            Analyses. That's my purpose, giving the chance to 
+            understand more in an accessible way.</p> */}</p>
         </div>
     )
 }
