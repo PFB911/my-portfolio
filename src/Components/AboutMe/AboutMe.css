@@ -1,0 +1,16 @@
+.about-container{
+    min-height: 100vh;
+  
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+}
+.about-container h1{
+    font-size: 50px;
+    padding-top: 20px;
+}
+.about-container p{
+    padding: 10px 100px;
+    text-align: justify;
+}
