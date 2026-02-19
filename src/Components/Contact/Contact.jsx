@@ -50,11 +50,11 @@ const Contact = () => {
                 </div>
                  <div className="contact-detail">
                     <img src={call_icon} alt="" />
-                    <p>+393471419456  +358403608091</p>
+                    <p>+393471419456 <br /> +358403608091</p>
                 </div>
                  <div className="contact-detail">
                     <img src={location_icon} alt="" />
-                    <p>Venice (IT) / Rovaniemi (FIN)</p>
+                    <p>Venice (IT) <br /> Rovaniemi (FIN)</p>
                     
                 </div>
             </div>

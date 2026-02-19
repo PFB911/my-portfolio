@@ -23,13 +23,14 @@
     /* margin-left: 20px;   */
 }
 .contact-title{
-    margin-bottom: 30px;
-   
+    margin-bottom: 30px;  
 }
 .contact-detail{
     display: flex;
-    gap: 10px;
+    gap: 30px;
 }
+
+
 .contact-right{
     display: flex;
     flex-direction: column;
@@ -95,7 +96,9 @@
 }
 .contact-detail{
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    gap: 30px;
+    padding-left: 20px;
 }
 .contact-right h2{
     font-size: 30px;
@@ -106,6 +109,6 @@
 @media(max-width:1080px){
     .contact-section{
     display: flex;
-    justify-content: space-between;
+   
 }}
 }
