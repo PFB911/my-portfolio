@@ -85,11 +85,27 @@
 .contact-right{
     align-items: center;
 }
+.contact-title h1{
+    font-size: 40px;
+    margin: 0;
+    
+}
+.contact-title-2 h2{
+    font-weight: 150;
+}
+.contact-detail{
+    display: flex;
+    justify-content: center;
+}
+.contact-right h2{
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px;
 }
 
 @media(max-width:1080px){
     .contact-section{
     display: flex;
     justify-content: space-between;
-}
+}}
 }

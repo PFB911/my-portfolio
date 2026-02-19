@@ -9,6 +9,7 @@ const AboutMe = () => {
              <br />
             My passion for coding began while studying 
             genetic code and evolutionary patterns. <br />
+            <br />
             Combined with my interest in communication, this led me to front-end development,
             where I focus on creating efficient platforms 
             and clear web pages to display insights from 
