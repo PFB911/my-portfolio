@@ -4,9 +4,9 @@ import Timeline from '../Timeline/Timeline'
 
 const Education = () => {
   return (
-    <div id='education' className='aboutme'>
+    <div id='education' className='education'>
          
-      <div className="aboutme-title">
+      <div className="education-title">
         <h1>Education and Academic Background</h1>
       </div>
       <div className="timeline">

@@ -23,6 +23,15 @@ const Landing = () => {
                     <AnchorLink href='#bio'><button className='btn-2'>About me</button></AnchorLink>
                 </div>
             </div>
+            <div className="title-small">
+                <h1>Hi, I'm <span>Pier</span> and I'm a <span>web developer</span></h1>
+            </div>
+            <div className="container-small">
+                <AnchorLink href='#aboutme'><p>AboutMe</p></AnchorLink>
+                <AnchorLink href='#education'><p>Education</p></AnchorLink>
+                <AnchorLink href='#projects'><p>Projects</p></AnchorLink>
+                <AnchorLink href='#contact'><p>Contact</p></AnchorLink>
+            </div>
 
         </div>
     )

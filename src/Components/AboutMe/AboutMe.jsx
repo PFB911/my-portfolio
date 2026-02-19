@@ -7,21 +7,14 @@ const AboutMe = () => {
             <h1 className="title">Briefly about me</h1>
             <p>Hello again! I'm <span>Pierfrancesco</span> but you can call me <span>Pier</span>. <br/> 
              <br />
-            I built this page to showcase my skills in web development, 
-            and I hope you find it useful. 
-            I have a wide range of interests, 
-            and my scientific background has helped me 
-            develop a critical perspective,
-            allowing me to make evidence-based decisions. <br />
-             <br />
             My passion for coding began while studying 
-            genetic code and evolutionary patterns. 
+            genetic code and evolutionary patterns. <br />
             Combined with my interest in communication, this led me to front-end development,
             where I focus on creating efficient platforms 
             and clear web pages to display insights from 
             data analysis. <br />
              <br />
-            That's my purpose: making information clear, insightful, and accessible.
+            That's my <span>purpose</span>: making information clear, insightful, and accessible.
 
             {/* I built this page to showcase my skills in building 
             web apps and I hope you will find it useful. I'm all 

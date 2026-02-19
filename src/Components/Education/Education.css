@@ -1,10 +1,10 @@
-.aboutme{
+.education{
   min-height: 100vh;
   padding-top: 50px;
   color: #C2D4D4;
 }
 
-.aboutme-title{
+.education-title{
     text-align: center;  
     font-size: 25px;  
     height: 15vh;   
@@ -14,4 +14,16 @@
     display: flex;
     margin-top: 100px;
     /* border: 2px solid red; */   
+}
+
+@media(max-width:768px){
+  .education{
+    height: auto;
+  }
+  .education-title h1{
+    font-size: 40px;
+  }
+  .timeline{
+    height: auto;
+  }
 }

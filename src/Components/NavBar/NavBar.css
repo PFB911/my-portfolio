@@ -61,3 +61,23 @@
     transition: 0.3s ease-in;
     cursor: pointer;
 }
+
+.lines{
+    border: 1px solid red;
+    display: absolute;
+    z-index: 10;
+}
+.lines p{
+    width: 20px;
+    color: white;
+}
+
+@media(max-width:768px){
+    .nav-container{
+        border: none;
+    }
+    .links{
+        display: none;
+    }
+   
+}

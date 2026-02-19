@@ -1,10 +1,20 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import { timelineData } from "../../assets/data.js";
 import "./Timeline.css";
 
 const Timeline = () => {
   //const [hasItems, setHasItems] = useState()
   const [activeIndex, setActiveIndex] = useState(null)
+  const descRef = useRef(null)
+
+  useEffect(()=> {
+    if(activeIndex !== null){
+      descRef.current?.scrollIntoView({
+        behavior: "smooth",
+        block: "nearest"
+      },[activeIndex])
+    }
+  })
 
  
 
@@ -52,7 +62,7 @@ const Timeline = () => {
         ))}
         {timelineData.map((item, index) => (
           activeIndex === index && (
-            <div className={`desc-square desc-${index}`} key={index}>
+            <div ref={descRef} className={`desc-square desc-${index}`} key={index}>
               <h2>{item.title}</h2>
               <ul>
                 {item.description.map((i, index)=>(

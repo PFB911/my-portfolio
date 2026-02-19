@@ -29,6 +29,8 @@ const NavBar = () => {
         ))}
             <button className="toggle-lang">EN</button>
         </div>
+    
+       
     </div>
   )
 }

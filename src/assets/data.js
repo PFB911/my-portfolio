@@ -25,7 +25,7 @@ export const timelineData = [
     id: 4,
     year: "2022-2023",
     title: "Traveling and working in tourism industry",
-    description: ["Outdoor guide in Finland since 4 years. Currently pursuing Rescue Guide Certification."]
+    description: ["Outdoor guide in Finland since 4 years; HR Recruiter; Shift Supervisor. Currently pursuing Rescue Guide Certification."]
   },
   {
     id: 5,

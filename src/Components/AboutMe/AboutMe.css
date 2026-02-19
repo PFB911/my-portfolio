@@ -1,21 +1,53 @@
-.about-container{
+.about-container {
     min-height: 100vh;
-  
+
     display: flex;
     flex-direction: column;
     gap: 100px;
     align-items: center;
 }
-.about-container h1{
+
+.about-container h1 {
     font-size: 50px;
     padding-top: 20px;
+
 }
-.about-container p{
+
+.about-container p {
     padding: 10px 100px;
     text-align: justify;
-    font-size: 20px;
+    font-size: 25px;
     line-height: 35px;
+
+
 }
-.about-container span{
+
+.about-container span {
     font-weight: 800;
+}
+
+@media(max-width:768px) {
+
+    .about-container {
+        height: auto;
+        gap: 50px;
+    }
+
+    .about-container p {
+        padding: 20px;
+        font-weight: 150;
+        text-align: center;
+       
+    }
+
+    .about-container span {
+        font-weight: 600;
+    }
+
+    .about-container h1 {
+        font-size: 40px;
+       
+
+    }
+
 }
