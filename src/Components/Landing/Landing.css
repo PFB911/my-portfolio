@@ -186,9 +186,11 @@
     font-weight: 100;
     font-size: 30px;
   }
- 
+}
 
-
-
-
+@media (min-width: 769px) and (max-width: 1024px) {
+    .text-container h2{
+        text-align: center;
+        
+    }
 }

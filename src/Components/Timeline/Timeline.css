@@ -170,11 +170,28 @@ p {
   .timeline-wrapper::before {
     display: none;
   }
-  .desc-square{
+
+}
+
+@media ((min-width:768px)and(max-width: 1024px)) {
+
+  .timeline-wrapper {
+    flex-wrap: nowrap;
     position: relative;
-    width: auto;
-    margin: 20px;
-    background-color: rgb(68, 73, 73,);
     
+
   }
+
+  .timeline-item {
+    flex: 1 1 0;
+    min-width: 0; 
+    
+    height:fit-content;
+  }
+
+  .desc-square {
+    position: absolute;
+  }
+ 
+ 
 }
