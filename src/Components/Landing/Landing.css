@@ -13,6 +13,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+ 
    
     height: 100vh;
 
@@ -57,6 +58,7 @@
     color: #C2D4D4;
     /* border: 2px solid red; */
     line-height: 50px;
+    
   
     letter-spacing: -1.5px;
     /* -webkit-text-stroke: 1.2px rgb(110, 105, 105); */
@@ -64,11 +66,12 @@
 
 .text-container h1 {
     font-size: 2rem;
+       font-weight: 200;
 
 }
 
 .text-container h2 {
-
+   font-weight: 200;
     font-size: 2rem;
 }
 /* .text-container h2,p{
@@ -79,18 +82,19 @@
 } */
 
 .text-container h1 span {
-    font-weight: 800;
+    font-weight: 500;
 
 }
 
 .text-container h2 span {
-    font-weight: 800;
+    font-weight: 500;
 
 }
 
 .text-container p {
     margin-top: 20px;
     font-size: 1.5rem;
+       font-weight: 200;
 }
 
 .buttons {

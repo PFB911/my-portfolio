@@ -7,13 +7,13 @@ export const timelineData = [
     id: 1,
     year: "2019",
     title: "BSc in Biology",
-    description: ["Foundational knowledge of Biology, Chemistry and Evolutional principles. Thesis: Nutraceutical food as a novel therapeutic approach to Parkinson disease"]
+    description: ["Foundational knowledge of Biology, Chemistry and Evolutional principles. Thesis: `Nutraceutical food as a novel therapeutic approach to Parkinson disease`"]
   },
   {
     id: 2,
     year: "2019",
     title: "MSc in Biotechnology",
-    description: ["MSc in Biotechnology for Food Science (110/110): Advanced knowledge of biotech lab procedures, including bioinformatic analyses (R-studio, Mega, BLAST). Advanced knowledge of DNA molecule evolutional processes. Master thesis: Investigating the effect of the soil factor on the plastic response of Corvina cultivar (Vitis vinifera L)."]
+    description: ["MSc in Biotechnology for Food Science (110/110): Advanced knowledge of biotech lab procedures, including bioinformatic analyses (R-studio, Mega, BLAST). Advanced knowledge of DNA molecule evolutional processes. Master thesis: `Investigating the effect of the soil factor on the plastic response of Corvina cultivar (Vitis vinifera L).`"]
   },
   {
     id: 3,

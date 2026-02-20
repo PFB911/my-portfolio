@@ -101,7 +101,7 @@
     padding-left: 20px;
 }
 .contact-detail img{
-    display: none;
+    /* display: none; */
 }
 .contact-right h2{
     font-size: 30px;

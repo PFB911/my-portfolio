@@ -12,8 +12,9 @@ const AboutMe = () => {
             <br />
             Combined with my interest in communication, this led me to front-end development,
             where I focus on creating efficient platforms 
-            and clear web pages to display insights from 
-            data analysis. <br />
+            and clear web pages. 
+            {/* to display insights from data analysis.  */}
+            <br />
              <br />
             That's my <span>purpose</span>: making information clear, insightful, and accessible.
 
