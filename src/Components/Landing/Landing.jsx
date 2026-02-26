@@ -20,7 +20,7 @@ const Landing = () => {
                 </div>
                 <div className="buttons">
                     <AnchorLink href='#contact'><button className='btn-1'>Get in Touch!</button></AnchorLink>
-                    <AnchorLink href='#bio'><button className='btn-2'>About me</button></AnchorLink>
+                    <AnchorLink href='#aboutme'><button className='btn-2'>About me</button></AnchorLink>
                 </div>
             </div>
             <div className="title-small">

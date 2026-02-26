@@ -7,6 +7,7 @@ const links = ["AboutMe","Education","Projects","Contact"]
 const NavBar = () => {
 
     const [active, setActive] = useState("")
+    
 
 
 
