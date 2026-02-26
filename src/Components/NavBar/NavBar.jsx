@@ -2,12 +2,12 @@ import React, { useEffect, useState } from 'react'
 import './NavBar.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-const links = ["AboutMe","Education","Projects","Contact"]
+const links = ["AboutMe","Education","Contact"]
 
 const NavBar = () => {
 
     const [active, setActive] = useState("")
-    
+
 
 
 

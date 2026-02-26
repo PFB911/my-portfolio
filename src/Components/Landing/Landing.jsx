@@ -29,7 +29,7 @@ const Landing = () => {
             <div className="container-small">
                 <AnchorLink href='#aboutme'><p>AboutMe</p></AnchorLink>
                 <AnchorLink href='#education'><p>Education</p></AnchorLink>
-                <AnchorLink href='#projects'><p>Projects</p></AnchorLink>
+                {/* <AnchorLink href='#projects'><p>Projects</p></AnchorLink> */}
                 <AnchorLink href='#contact'><p>Contact</p></AnchorLink>
             </div>
 
