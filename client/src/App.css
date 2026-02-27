@@ -1,0 +1,12 @@
+.app{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(25, 24, 24);
+}
+
+@media(max-width:768px){
+    .app{
+        text-align: center;
+    }
+}

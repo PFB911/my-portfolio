@@ -1,0 +1,18 @@
+.stack-container{
+
+
+   
+
+}
+.stack-title{
+    width: 100%;
+    text-align: center;
+    font-size: 25px;
+}
+.stack-icons ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}
