@@ -14,19 +14,24 @@ import bg_black from './assets/bg_black.png'
 import NavBar from './Components/NavBar/NavBar';
 import Education from './Components/Education/Education';
 import AboutMe from './Components/AboutMe/AboutMe';
+import Home from './Pages/Home';
+import { Route, Routes } from 'react-router';
+import Login from './Pages/Login/Login';
 
 
 const App = () => {
   return (
     <div className='app' >
-      <NavBar/>
-      <Landing/>
-      <AboutMe/>
-      <Education/>
+   
+      <Routes>
+        <Route path='/' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+      </Routes>
+
       {/* <Projects/> */}
-      
-      <Contact/>
-      <ToastContainer/>
+
+
+      <ToastContainer />
 
     </div>
   )
