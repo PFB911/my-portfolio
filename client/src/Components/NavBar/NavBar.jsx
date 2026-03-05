@@ -20,25 +20,25 @@ const NavBar = () => {
     <div className='nav-container'>
       <div className="logo">
         <h2>pdevq</h2>
-     <button onClick={()=>navigate('/login')} className='btn-sm'>Login</button>
-        
+        <button onClick={() => navigate('/login')} className='btn-sm'>Login</button>
+
       </div>
-      <div className="links">
-        {links.map((link) => (
-          <AnchorLink href={`#${link.toLowerCase()}`} key={link}>
-            <p
-              className={active === link ? "active" : ""}
-              onClick={() => setActive(link)}
-            >
-              {link}
-            </p>
-          </AnchorLink>
+      
+        <div className="links">
+          {links.map((link) => (
+            <AnchorLink href={`#${link.toLowerCase()}`} key={link}>
+              <p
+                className={active === link ? "active" : ""}
+                onClick={() => setActive(link)}
+              >
+                {link}
+              </p>
+            </AnchorLink>
 
-        ))}
-        <button className="btn-lg">Login</button>
-      </div>
+          ))}
+          <button onClick={()=>navigate('/login')} className="btn-lg">Login</button>
 
-
+        </div>
     </div>
   )
 }

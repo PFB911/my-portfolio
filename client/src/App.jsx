@@ -17,6 +17,7 @@ import AboutMe from './Components/AboutMe/AboutMe';
 import Home from './Pages/Home';
 import { Route, Routes } from 'react-router';
 import Login from './Pages/Login/Login';
+import AdminPanel from './Pages/AdminPanel/AdminPanel';
 
 
 const App = () => {
@@ -26,6 +27,7 @@ const App = () => {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/admin' element={<AdminPanel/>}/>
       </Routes>
 
       {/* <Projects/> */}
