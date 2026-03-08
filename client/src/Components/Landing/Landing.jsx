@@ -1,14 +1,17 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import background_main from '../../assets/background_main.png'
 import background_2 from '../../assets/background_2.png'
 import './Landing.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import foto from '../../assets/foto_circ.png'
+import { AppContext } from '../../Context/AppContext';
 
 
 
 
 const Landing = () => {
+
+    const { projects } = useContext(AppContext);
     return (
         <div className='landing'>
             <div className="container">
@@ -29,7 +32,8 @@ const Landing = () => {
             <div className="container-small">
                 <AnchorLink href='#aboutme'><p>AboutMe</p></AnchorLink>
                 <AnchorLink href='#education'><p>Education</p></AnchorLink>
-                {/* <AnchorLink href='#projects'><p>Projects</p></AnchorLink> */}
+                {projects.length > 0 && <AnchorLink href='#projects'><p>Projects</p></AnchorLink> }
+                
                 <AnchorLink href='#contact'><p>Contact</p></AnchorLink>
             </div>
 

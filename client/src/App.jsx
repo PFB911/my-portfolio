@@ -15,25 +15,41 @@ import NavBar from './Components/NavBar/NavBar';
 import Education from './Components/Education/Education';
 import AboutMe from './Components/AboutMe/AboutMe';
 import Home from './Pages/Home';
-import { Route, Routes } from 'react-router';
+import { Route, Routes } from 'react-router-dom';
 import Login from './Pages/Login/Login';
-import AdminPanel from './Pages/AdminPanel/AdminPanel';
+import AdminPanel from './Pages/Admin/AdminPanel';
+import Dashboard from './Pages/Admin/Dashboard';
+
+
+import AddProject from './Pages/Admin/AddProject';
+import ListProject from './Pages/Admin/ListProject';
+import FetchedProject from './Components/FetchedProjects/FetchedProject';
 
 
 const App = () => {
   return (
     <div className='app' >
-   
+ <ToastContainer />
       <Routes>
+        
         <Route path='/' element={<Home />} />
         <Route path='/login' element={<Login />} />
-        <Route path='/admin' element={<AdminPanel/>}/>
+        {/* <Route path='/admin' element={<AdminPanel />} /> */}
+
+        <Route path='/admin' element={<AdminPanel />}>
+          <Route index element={<Dashboard />} />
+          <Route path='addProject' element={<AddProject/>} />
+          <Route path='listProject' element={<ListProject />} />
+          
+
+        </Route>
       </Routes>
 
       {/* <Projects/> */}
+    
 
 
-      <ToastContainer />
+     
 
     </div>
   )

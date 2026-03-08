@@ -1,17 +1,26 @@
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import './NavBar.css'
 import AnchorLink from "react-anchor-link-smooth-scroll";
 import { Link, Navigate, useNavigate } from 'react-router';
+import { AppContext } from '../../Context/AppContext';
 
 
 
-const links = ["AboutMe", "Education", "Contact"]
+
+
 
 const NavBar = () => {
 
   const navigate = useNavigate();
 
+  const { projects } = useContext(AppContext);
   const [active, setActive] = useState("")
+
+  const links = ["AboutMe", "Education", "Contact"]
+
+  if(projects.length > 0 && !links.includes("Projects")){
+    links.push("Projects")
+  }
 
 
 

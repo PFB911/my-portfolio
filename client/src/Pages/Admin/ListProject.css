@@ -1,0 +1,22 @@
+.tablelist-container{
+  overflow-x: auto;
+}
+.project-table{
+    width: 100%;
+    border-collapse: collapse;
+    
+}
+
+.project-table th,
+.project-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+}
+
+.project-table th {
+  background-color: #333;
+  color: white;
+}
+
+

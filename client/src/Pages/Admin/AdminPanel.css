@@ -1,0 +1,18 @@
+.admin-container{
+    height: 100vh;
+}
+.btn{
+    border-radius: 50px;  
+}
+.nav{
+    border-bottom: 0.1px solid grey;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding-inline: 10px;
+}
+.sidebar{
+    display: flex;
+    height: calc(100vh-70px);
+}
